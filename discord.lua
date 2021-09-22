@@ -88,7 +88,7 @@ Discord.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 
 function DiscordLib:Window(text)
 	local currentservertoggled = ""
-	local minimized = false
+        minimized = false
 	local fs = false
 	local settingsopened = false
 	local MainFrame = Instance.new("Frame")
